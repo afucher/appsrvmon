@@ -1,0 +1,36 @@
+{
+  "name": "appsrvmon",
+  "version": "0.0.1",
+  "author": {
+    "name": "Arthur Fücher",
+    "url": "http://github.com/afucher"
+  },
+  "bin": {
+    "appsrvmon": "./bin/appsrvmon.js"
+  },
+  "engines": {
+    "node": ">=0.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/afucher/appsrvmon.git"
+  },
+  "description": "A useful tool for developers who use appserver from TOTVS, based on nodemon",
+  "keywords": [
+    "monitor",
+    "development",
+    "restart",
+    "autoload",
+    "reload",
+    "terminal",
+    "appserver",
+    "advpl"
+  ],
+  "preferGlobal": "true",
+  "license": "MIT",
+  "main": "./lib/appsrvmon",
+  "dependencies": {
+    "chokidar": "^1.4.3",
+    "commander": "^2.9.0"
+  }
+}
