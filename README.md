@@ -30,6 +30,10 @@ For CLI options, use the `-h` (or `--help`) argument:
 
     appsrvmon -h
 
+## Future features
+ - [ ] Config which .ini keys will make the application server restart when changed
+ - [ ] Command to rename/move the console.log file
+
 ## Automatic re-running
 
 appsrvmon will restart the application server whenever the .ini file changes.
