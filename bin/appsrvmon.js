@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+#!/usr/bin/env node --harmony
 'use strict';
 var program = require('commander');
 var spawn = require('../lib/spawn.js');
@@ -16,6 +16,4 @@ path_appserver = path.resolve(path_appserver,'.\\appserver.exe');
 let command = {
   path : path_appserver
 };
-//command.push(path_appserver);
-console.log(command);
 spawn(command);
