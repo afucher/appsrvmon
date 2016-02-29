@@ -1,8 +1,8 @@
 # Appsrvmon
 
-For use in **development** environment of applications that use [TOTVS | Application Server](http://tdn.totvs.com/display/tec/Application+Server) for development.
+For use in **development** environment of applications that use [TOTVS | Application Server](http://tdn.totvs.com/display/tec/Application+Server).
 
-appsrvmon will watch the [ini](http://tdn.totvs.com/pages/viewpage.action?pageId=6064745) file in the directory appserver.
+appsrvmon will watch the [ini](http://tdn.totvs.com/pages/viewpage.action?pageId=6064745) file in the appserver's directory.
 
 appsrvmon simply wraps [TOTVS | Application Server](http://tdn.totvs.com/display/tec/Application+Server) and keeps an eye on ini file that have changed. Remember that appsrvmon is a replacement wrapper for appserver, think of it as replacing the command `appserver -console` on the command line.
 
