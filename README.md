@@ -36,3 +36,6 @@ appsrvmon will restart the application server whenever the .ini file changes.
 
 # Credits
 This tool is inspired by: [nodemon](https://github.com/remy/nodemon)
+
+# Attention!!
+This tool does not have any link with TOTVS, this repository is fully independent.
