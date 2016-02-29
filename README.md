@@ -32,7 +32,7 @@ For CLI options, use the `-h` (or `--help`) argument:
 
 ## Automatic re-running
 
-appsrvmon will restart the application server where the .ini file changes.
+appsrvmon will restart the application server whenever the .ini file changes.
 
 # Credits
 This tool is inspired by: [nodemon](https://github.com/remy/nodemon)
