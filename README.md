@@ -38,6 +38,10 @@ For CLI options, use the `-h` (or `--help`) argument:
 
 appsrvmon will restart the application server whenever the .ini file changes.
 
+## Manual restarting
+
+If you need to manually restart your application, instead of stopping and restart appsrvmon, you can simply type `rs` with and `enter`, and apprvmon will restart your application server.
+
 # Credits
 This tool is inspired by: [nodemon](https://github.com/remy/nodemon)
 
