@@ -1,5 +1,5 @@
 var events = require('events');
-//var debug = require('debug')('nodemon');
+//var debug = require('debug')('appsrvmon');
 var util = require('util');
 
 var Bus = function () {
