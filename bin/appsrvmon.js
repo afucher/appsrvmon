@@ -3,9 +3,11 @@
 var program = require('commander');
 var spawn = require('../lib/spawn.js');
 var path = require('path');
+var fs = require('fs');
+var pkg = JSON.parse(fs.readFileSync(__dirname + '/../package.json'));
 
 program
-  .version('0.0.1')
+  .version(pkg.version)
   .option('-a, --appserver <path/to/appserver>', 'path to appserver.exe');
 
 program.parse(process.argv);
