@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/afucher/appsrvmon.png?label=ready&title=Ready)](https://waffle.io/afucher/appsrvmon)
 # Appsrvmon
 
 For use in **development** environment of applications that use [TOTVS | Application Server](http://tdn.totvs.com/display/tec/Application+Server).
