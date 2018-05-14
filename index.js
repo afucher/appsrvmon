@@ -6,7 +6,7 @@ var path = require('path');
 let serverName = process.platform == 'win32' ? 'appserver.exe' : 'appsrvlinux';
 
 program
-  .version('0.0.1')
+  .version('0.0.2')
   .option('-a, --appserver <path/to/appserver>', 'path to ' + serverName )
   .option('-c, --smartclient <path/to/smartclient>', 'path to smartclient' );
 
