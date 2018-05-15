@@ -1,5 +1,6 @@
 #!/usr/bin/env node --harmony
 'use strict';
+
 var program = require('commander');
 var spawn = require('../lib/spawn.js');
 var path = require('path');
@@ -25,4 +26,5 @@ path_appserver = path.resolve(path_appserver,'.\\' + serverName );
 let command = {
   path : path_appserver
 };
+
 spawn(command,path_client,watchINI);
